@@ -36,29 +36,32 @@ body {
 }
 
 .container {
-    background-color: rgb(192, 192, 192);
     width: 80%;
+    height: 32px;
+    background-color: rgb(192, 192, 192);
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .skill {
     background-color: #3B82F6;
     border-radius: 10px;
-    padding: 1%;
-    font-size: 20px;
+    height: 32px;
+    line-height: 32px;
     text-align: center;
+    font-size: 20px;
 }
 
 .programming {
-    width: 60%;
+    width: 40%;
 }
 
 .math {
-    width: 90%;
+    width: 80%;
 }
 
 .english {
-    width: 40%;
+    width: 90%;
 }
 
 .electronics {
@@ -73,11 +76,11 @@ body {
     padding: 50px;
 }
 
-#lataks {
+#ivanov{
     color: #3B82F6;
 }
 
-#emanuils {
+#ivan {
     color: #E5E7EB;
     margin-bottom: -10px;
 }
@@ -147,8 +150,16 @@ main {
     border-radius: 20px;
     border: 2px solid whitesmoke;
     background-color: #151B2E;
-    padding: 50px;
+    padding: 20px 0px 0px 50px;
     color: white;
+}
+
+#skills h1 {
+    font-size: 40px;
+}
+
+#skills span {
+    font-size: 30px;
 }
 
 #focus {
@@ -156,7 +167,6 @@ main {
     border-radius: 20px;
     border: 2px solid whitesmoke;
     background-color: #151B2E;
-    padding: 50px;
     color: white;
 }
 
@@ -215,4 +225,66 @@ main {
     margin: 0;
     color: #94A3B8;
     line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+footer a {
+    color: #3B82F6;
+    text-decoration: none;
+}
+
+.achievement {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 55px;
+}
+
+.achievement i {
+    font-size: 28px;
+    color: #3B82F6;
+    width: 35px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+#focus h1{
+    padding: 20px 0px 0px 50px;
+    font-size: 40px;
+}
+
+.focus-card {
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+#focus p{
+    font-size: 30px;
+}
+
+#about .btn {
+    right: 40px;
+    background: #2563EB;
+    color: white;
+    padding: 7px 7px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#rscg {
+  padding-top: 30px;
+}
+
+#rscg {
+    padding-top: 30px;
+}
+
+#mort {
+    padding-top: 30px;
 }

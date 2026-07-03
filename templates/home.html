@@ -6,41 +6,73 @@
     <section id="about">
         <h3>Engineering Student</h3>
         <h1>
-    <span id="emanuils">EMANUĪLS</span>
-    <span id="lataks">LATAKS</span>
+    <span id="ivan">IVAN</span>
+    <span id="ivanov">IVANOV</span>
         </h1>
         <p>Passionate about STEM</p>
 
-        <a href="https://github.com" class="btn">View Projects</a>
+        <a href="https://github.com" class="btn">More About Me</a>
 
     </section>
 
     <div class="right-side">
     <section id="skills">
-        <h1>RVKG Student</h1>
-        <h2></h2>
+        <h1>My Achievements</h1>
+        
+        <div class="achievement">
+            <i class="bi bi-mortarboard-fill" id="mort"></i>
+            <span id="rscg">Riga State Classical Gymnasium</span>
+        </div>
+
+         <div class="achievement">
+            <i class="bi bi-kanban-fill"></i>
+            <span>10+ Personal Projects</span>
+        </div>
+
+        <div class="achievement">
+            <i class="bi bi-cpu-fill"></i>
+            <span>Electronics Enthusiast</span>
+        </div>
+
+        <div class="achievement">
+            <i class="bi bi-globe-europe-africa"></i>
+            <span>IELTS 7.0 (C1)</span>
+        </div>
+
+
+
     </section>
 
     <section id="focus">
+        
         <h1>Current Focus</h1>
+        
+        <div class="focus-card">
         <p>Programming</p>
         <div class="container">
-            <div class="skill programming">30%</div>
+            <div class="skill programming">40%</div>
+        </div>
         </div>
 
+        <div class="focus-card">
         <p>Mathematics</p>
         <div class="container">
-            <div class="skill math">50%</div>
+            <div class="skill math">80%</div>
+        </div>
         </div>
 
+        <div class="focus-card">
         <p>English</p>
         <div class="container">
-            <div class="skill english">80%</div>
+            <div class="skill english">90%</div>
+        </div>
         </div>
 
+        <div class="focus-card">
         <p>Electronics</p>
         <div class="container">
-            <div class="skill electronics">40%</div>
+            <div class="skill electronics">50%</div>
+        </div>
         </div>
 
     </section>
@@ -86,11 +118,9 @@
 </div>
     </section>
 
-    <section id="aboutme">
-        <h3>About Me</h3>
-        <p>I'm 17-year-old engineering student from Latvia.</p>
-    </section>
-
-
 </main>
+
+<footer>
+    <p>Have a question or want to connect? Check out the <a href="{{ url_for('contact') }}">Contacts</a> page!</p>
+</footer>
 {% endblock %}
